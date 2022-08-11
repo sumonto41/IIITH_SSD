@@ -4,7 +4,7 @@ outputs the middle line of the text file.
 I have used '\n' as field separator and "" as record separator,
 At the END, value of NF will be number of lines processed,
 So I am printing the (NF+1)/2 line.
-Below are some test cases and there resulting output.
+Below are some test cases and their resulting output.
 (1)
 contents of the text file:
 
