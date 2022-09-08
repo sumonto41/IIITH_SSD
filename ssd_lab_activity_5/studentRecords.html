@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            function addNewParaElement() {
+            var mainDiv= document.getElementById("main");
+            var newPara = document.createElement("p");
+            var input = "aaaa";
+            newPara.innerHTML = input;
+            mainDiv.appendChild(newPara );
+            }
+            </script>
+    </head>
+    <body>
+        <h1>Student Records</h1>
+        <div id="main">
+        <input type="text" name="Roll" required minlength="1" maxlength="8" size="10">
+        <input type="text" name="Name" required minlength="1" maxlength="8" size="25">
+        <button onclick="addNewParaElement()">Add new</button>
+        </div>
+        <button>Delete last entry</button>
+    </body>
+</html>
