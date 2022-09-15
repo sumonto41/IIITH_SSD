@@ -1,0 +1,54 @@
+h1{
+    color:rgb(215, 72, 243);
+    text-align: center;
+}
+body{
+    background: linear-gradient(to bottom,white, skyblue);
+    background-attachment: fixed;
+    vertical-align: middle;
+}
+input{
+    border-radius: 2ch;
+    border-width: 0ch;
+}
+button{
+    color: white;
+    background-color:rgb(89, 200, 89);
+    border: 0ch;
+    padding: 10px 20px;
+    border-radius: 3ch;
+    box-shadow: 0px 3px 2px 0px #888888;
+}
+table{
+    border-radius: 3ch;
+    border-width: 1ch;
+    /* background-color:white; */
+    background: linear-gradient(to bottom, rgb(144, 214, 255), rgb(249, 117, 249));
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    padding: 40px 20px;
+    box-shadow:3px 3px 2px 2px #888888;
+}
+td{
+    text-align: center;
+}
+
+.Droptarget1{
+    height: 200px;
+    /* display:inline-block; */
+    width: 20%;
+    background-color: powderblue;
+}
+.Droptarget2{
+    height: 200px;
+    /* display:inline-block; */
+    width: 20%;
+    background-color: #b3f5a6;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }

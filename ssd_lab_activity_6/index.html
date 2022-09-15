@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Team Form</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <h1>Team Form</h1>
+    <form>
+    <label><strong>Manager Name</strong></label><input id="a" type="text" name="Mname" required minlength="1" maxlength="20" size="15">
+    <br>
+    <label><strong>Group Email</strong></label><input id="b" type="email" name="email" required minlength="1" maxlength="20" size="15">
+    <br>
+    <label><strong>Server Username</strong></label><input id="c" type="text" name="Sname" required minlength="1" maxlength="20" size="15">
+    <br>
+    <label><strong>Server Password</strong></label><input id="d" type="password" name="p1" required minlength="1" maxlength="20" size="15">
+    <br>
+    <label><strong>Confirm Password</strong></label><input id="e" type="password" name="p2" required minlength="1" maxlength="20" size="15">
+    <br>
+    <label><strong>Team Lead</strong></label>
+    <select name="Teamlead" id="tlead">
+    <option value="Aman">Aman</option>
+    <option value="Rahul">Rahul</option>
+    <option value="Raghav">Raghav</option>
+    <option value="Amit">Amit</option>
+    <option value="Shyam">Shyam</option>
+    </select>
+    <br>
+    <label><strong>Team Members</strong></label>
+    <div class="Droptarget1"
+        ondragover="dragoverHandler(event)"
+        ondrop="dropHandler(event)">
+        <p class="Mem" id="Dragtarget1"
+        ondragstart="dragstartHandler(event)"
+        draggable="true">Aman</p>
+        <p class="Mem" id="Dragtarget2"
+        ondragstart="dragstartHandler(event)"
+        draggable="true">Rahul</p>
+        <p class="Mem" id="Dragtarget3"
+        ondragstart="dragstartHandler(event)"
+        draggable="true">Raghav</p>
+        <p class="Mem" id="Dragtarget4"
+        ondragstart="dragstartHandler(event)"
+        draggable="true">Amit</p>
+        <p class="Mem" id="Dragtarget5"
+        ondragstart="dragstartHandler(event)"
+        draggable="true">Shyam</p>
+    </div>
+    <div class="Droptarget2"
+        ondragover="dragoverHandler(event)"
+        ondrop="dropHandler(event)">
+    </div>
+  <button onclick="Alert()">Submit</button>
+</form>
+    <body>
+    </body>
+</html>
